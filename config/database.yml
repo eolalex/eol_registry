@@ -1,0 +1,6 @@
+development:
+  host:            localhost
+  username:        root
+  password:        root
+  database:        eol_registry_development
+  encoding:        utf8 
