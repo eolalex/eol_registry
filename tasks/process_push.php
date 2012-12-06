@@ -118,7 +118,7 @@ function downloadFile ($url, $path) {
  
  function notify_node($url)
  {
-	$r = new HttpRequest($site -> response_url, HttpRequest::METH_GET);
+	$r = new HttpRequest($url, HttpRequest::METH_GET);
 	$r->send();
 
 	print_r("Sending notifiction to node\n");
